@@ -55,6 +55,24 @@ Task:
 
 	4. find out who was born on leap year
 
+	Data Structures:
+    	Array: supports primitives & non-primitives
+    	Collection: does not support primitives
+    	Map: does not support primitives
+
+
+    Warepper class:
+    		1. parse methods: converting string to primitives
+
+    		2. valueOf methods:converting string to wrapper class
+
+
+
+    	"123" + 1 ==> 1231
+    	123  + 1 ==> 124
+
+
+
 
 
 
