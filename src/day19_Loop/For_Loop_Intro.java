@@ -16,7 +16,7 @@ public class For_Loop_Intro {
         System.out.println("------------------------");
 
         for(int i = 1; i<=2; i++){
-           // for(int i = 1; i<=5; i+=2){// 1,3,5,(7)
+           //for(int i = 1; i<=5; i+=2){// 1,3,5,(7)
             System.out.println("hello World");//3 times
         }
         System.out.println("Hello Cybertek");

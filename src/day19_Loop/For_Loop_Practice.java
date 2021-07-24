@@ -10,7 +10,7 @@ public class For_Loop_Practice {
 
         System.out.println("--------------------------------------------------------");
 
-        for(int i = 1; i <= 100; i++){ // i: 1,2,3,4,5,6,7....100
+        for(int i = 1; i <= 100; i++){ // i: 1,2,3,4,5,6,7....100 add numbers
             if(i %2 != 0){
                 System.out.print(i+" ");
             }
@@ -30,7 +30,7 @@ public class For_Loop_Practice {
 
         for (int i = 1; i < 101; i++) {
             if(i%2 == 0){
-                System.out.print(i+" ");
+                System.out.print(i+" "); // even numbers
             }
         }
 
