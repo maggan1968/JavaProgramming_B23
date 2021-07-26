@@ -4,22 +4,24 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 
-public class warmupTask1 {
+public class warmupTask1_IMPORTENT {
     public static void main(String[] args) {
 
-        LocalDate[]dates=new LocalDate[10];
+        LocalDate[] dates = new LocalDate[10];
 
 
-
+//i: represent each index of array
         for (int i = 0; i < dates.length; i++) {
-            dates[i]=LocalDate.now().plusDays(i+1);// i+1 exclude a today day,
-         //   dates[i]=LocalDate.of(2021,7,19).plusDays(i+1);// starts from more days before
+            dates[i] = LocalDate.now().plusDays(i + 1);// i+1 exclude a today day,
+            // dzisiejsza data      + nastepne dni bez ostatniego dnia
+            //   dates[i]=LocalDate.of(2021,7,19).plusDays(i+1);// starts from more days before
+            //November/25,Wednesday
         }
         System.out.println(Arrays.toString(dates));
 
-        for (LocalDate each:dates) {
+        for (LocalDate each : dates) {
             System.out.println(each.format(DateTimeFormatter.ofPattern("MMMM/dd, EEEE")));
-            
+
         }
     }
 }

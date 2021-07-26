@@ -1,4 +1,4 @@
-package ArrayList;
+package ArrayList_Methods;
 import java.util.ArrayList;
 
 public class Set {

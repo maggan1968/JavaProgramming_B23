@@ -25,7 +25,7 @@ ArrayList: part of Collection. is a class internally uses the array (has index)
 ArrayList methods:
 		add(Object):  adds the elements to the indexes of the arraylist
 
-		add(index, Object): adds the element to the given index (index must be exist)
+		add(index, Object):(overloadingMethod) adds the element to the given index (index must be exist)
 
 		get(index): returns the element at given index
 

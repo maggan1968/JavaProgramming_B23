@@ -24,20 +24,32 @@ ArrayList: part of Collection. is a class internally uses the array (has index)
 
 ArrayList methods:
 		add(Object):  adds the elements to the indexes of the arraylist
+                    to add elements to the ArrayList, use the add() method
 
-		add(index, Object): adds the element to the given index (index must be exist)
+		add(index, Object):(overloadingMethod) adds the element to the given index (index must be exist)
 
 		get(index): returns the element at given index
+                    To access an element in the ArrayList,
+                     use the get() method and refer to the index number:
+                     cars.get(0);
 
 		size(): returns the total number of elements
+                To find out how many elements an ArrayList have, use the size method:
+                cars.size();
+
 
 		set(index, Object): replaces the old element at given index with new element
+                          To modify an element, use the set() method and refer to the index number:
+		                   cars.set(0, "Opel");
+
 
 		remove(index): removes the object at the given index
+                      To remove an element, use the remove() method and refer to the index number:
+                     cars.remove(0);
 
 		remove(object): removes the first matching object
 
-		clear(): removes all the objects from the List
+		clear(): removes all the objects from the List: cars.remove(0);
 
 		indexOf(Object): returns the first matching object' index number
 

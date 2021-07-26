@@ -11,7 +11,8 @@ public class ArrayList_Intro {
 // .add method
 
         int[] nums = new int[10];// array can  have 10 items, size is fixed, not more
-        System.out.println(Arrays.toString(nums));
+        System.out.println(Arrays.toString(nums));//print Array verbal
+
 
         System.out.println(nums[2]);
         System.out.println("--------------------------------");
@@ -23,8 +24,9 @@ public class ArrayList_Intro {
         numbers.add(20);//autoboxing, index 1
         numbers.add(30);//autoboxing, index 2
         numbers.add(40);//autoboxing, index 3
-        numbers.add(3,15);
-
+        numbers.add(3,15);//.add overloading method
+               //  (10,20,30,15,40)
+        //index:    0  1  2  3  4
         System.out.println(numbers);
         System.out.println(numbers.get(2));
 
