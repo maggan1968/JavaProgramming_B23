@@ -59,6 +59,16 @@ ArrayList methods:
 
 		equals(list): returns boolean
 
+Bulk Operations: argument MUST be collectionType
+		addAll(collectionType): adds collection of elements to the list
+		removeAll(collectionType): removes all the matching elemnts from the arraylist
+		retianAll(collectionType): removes all the Non-matching elemnts from the arraylist (keep)
+		containsAll(collectionType): checks if all elemnts are contained in the list
+
+
+
+Arrays Utility:
+	Arrays.asList(array of values) ==> returns the array as Collection Type
 
 
 
