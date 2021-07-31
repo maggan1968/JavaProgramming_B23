@@ -57,6 +57,7 @@ public class Practice {
 
         words.removeIf( p -> StringUtility.isPalindrome(p) ); //if the string is palindrome, then remove it from the arraylist
 
+
         System.out.println( words);
 
 

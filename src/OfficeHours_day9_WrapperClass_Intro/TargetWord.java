@@ -11,7 +11,8 @@ public class TargetWord {
 
            /*
         Task 4 : Target Words
-					Given an ArrayList of Strings and a target word (String) print how many times the target word is in the ArrayList
+					Given an ArrayList of Strings and a target word (String)
+					print how many times the target word is in the ArrayList
 					Ex:
 					Input:
 						”java”, ”html”, “css”, “java”, “javascript”, “selenium”
@@ -29,6 +30,7 @@ public class TargetWord {
         for (String word : words) {
             if(word.equals(targetWord))
                 count++;
+
 
         }
 
