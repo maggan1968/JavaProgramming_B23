@@ -47,7 +47,7 @@ object: came from class, instance of a class
 	...
 
 
-instance: each object has its own copy
+instance: each object has its own copy  static-one cope
 
 instance variables: object variables
 				each object has its own copy of instance variables
@@ -55,6 +55,8 @@ instance variables: object variables
 
 instance methods: object methods
 			does not have static keyword
+
+Fields variables is instance method
 
 
 
