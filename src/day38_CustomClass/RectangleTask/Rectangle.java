@@ -1,4 +1,4 @@
-package day38_CustomClass;
+package day38_CustomClass.RectangleTask;
 
 public class Rectangle {
 
@@ -6,7 +6,9 @@ public class Rectangle {
 
         public double length, width;
 
-        public void setInfo(double length, double width){
+
+
+    public void setInfo(double length, double width){
             this.length = length;
             this.width = width;
         }
@@ -26,8 +28,16 @@ public class Rectangle {
             System.out.println("Perimeter = " + calculatePerimeter() );
         }
 
-
+    public String toString() {
+        return "Rectangle{" +
+                "length= " + length +
+                ", width= " + width +
+                ", area= " +calculateArea()+
+                ", perimeter= " +calculatePerimeter()+
+                '}';
     }
+}
+
 
 /*
 create a custom class named Rectangle
