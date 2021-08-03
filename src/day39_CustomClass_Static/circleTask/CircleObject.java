@@ -14,6 +14,6 @@ public class CircleObject {
         circle2.setInfo(3.5);
         System.out.println(circle2);
             }
-        };
+        }
 
 
