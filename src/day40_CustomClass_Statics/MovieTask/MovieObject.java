@@ -1,4 +1,4 @@
-package day40_CustomClass_Static.MovieTask;
+package day40_CustomClass_Statics.MovieTask;
 
 import java.time.LocalDate;
 

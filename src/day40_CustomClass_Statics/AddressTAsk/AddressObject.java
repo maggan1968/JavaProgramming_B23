@@ -1,6 +1,4 @@
-package day40_CustomClass_Static.AddressTAsk;
-
-import day40_CustomClass_Static.AddressTAsk.Address;
+package day40_CustomClass_Statics.AddressTAsk;
 
 import java.util.Scanner;
 

@@ -1,6 +1,7 @@
-package day40_CustomClass_Static;
+package day40_CustomClass_Statics;
 
-public class BankOfAzerbeijan {
+public class BankOfAzerbaijan {
+
     public static void main(String[] args) {
 
         System.out.println(HumanResource.employee1);
@@ -13,4 +14,6 @@ public class BankOfAzerbeijan {
     }
 
 }
+
+
 

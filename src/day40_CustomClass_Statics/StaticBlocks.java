@@ -1,4 +1,4 @@
-package day40_CustomClass_Static;
+package day40_CustomClass_Statics;
 
 import java.util.ArrayList;
 import java.util.Arrays;

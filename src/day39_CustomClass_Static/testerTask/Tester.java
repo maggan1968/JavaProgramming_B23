@@ -8,24 +8,24 @@ public class Tester {
     public String jobTitle;
     public double salary;
 
-    public Tester(String name, int employeeID, String jobTitle, double salary) {
+    public void setInfo(String name, int employeeID, String jobTitle, double salary) {
         this.name = name;
         this.employeeID = employeeID;
         this.jobTitle = jobTitle;
         this.salary = salary;
     }
 
-
     public void smokeTesting(){
-        System.out.println(name +"performs smoke testing as a daily activity");
+        System.out.println(name+ " makes smoke testing every day");
     }
-
     public void creatingTicket(){
-        System.out.println(name + "creates ticket when there is any default in application");
+
+        System.out.println(name + " create ticket for questions");
     }
 
     public void dailyStandUp(){
-        System.out.println(name + "joins to daily stand-up meeting everyday");
+
+        System.out.println(name+ " has daily stand up meeting between 8:00-8:30 every day.");
     }
 
     public String toString() {
