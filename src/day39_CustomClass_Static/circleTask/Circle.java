@@ -13,12 +13,16 @@ public class Circle {
     }
     //calculate(): returns the area of the circle
     public double area(){
-       return radius*radius*Math.PI;
+
+        return radius*radius*Math.PI;
     }
+
     //calculatePerimeter(): returns the perimeter of the circle
     public double perimeter(){
+
         return diameter*Math.PI;
     }
+
 //toString(): displays the radius, diameter, perimeter and area of the circle object
       public String toString() {
           DecimalFormat df = new DecimalFormat("0.000");
