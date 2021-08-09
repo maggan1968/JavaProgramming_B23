@@ -1,6 +1,7 @@
 package day41_CustomeClass_Constructor.ScrumTask;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ScrumTeam {
 
@@ -27,4 +28,21 @@ public class ScrumTeam {
                 ",  number of developers=" + developers.size() +
                 '}';
     }
+
+
+   public void hireTester(Tester tester){// hire just one tester
+      testers.add(tester);
+    }
+
+
+    public void hireTesters(Tester[]testers){
+        this.testers.addAll(Arrays.asList(testers));
+    }
+
+    public void removeTester(int id){
+        testers.removeIf(tester ->tester.id==id);
+
+    }
 }
+
+
