@@ -1,4 +1,4 @@
-package day41_CustomeClass_Constructor.CircleTask;
+package day41_CustomeClass_Constructor.circleTask;
 
 public class CircleObject {
     public static void main(String[] args) {

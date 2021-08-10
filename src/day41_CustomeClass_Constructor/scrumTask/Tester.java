@@ -1,4 +1,4 @@
-package day41_CustomeClass_Constructor.ScrumTask;
+package day41_CustomeClass_Constructor.scrumTask;
 
 public class Tester {
 
