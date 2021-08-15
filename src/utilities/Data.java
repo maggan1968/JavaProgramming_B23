@@ -23,11 +23,20 @@ public class Data {
         //  System.out.println(AccessModifiers.defaultVariable); // default access modifier is NOT reachable out the package
         //  System.out.println(AccessModifiers.privateVariable); // private access modifier is NOT reachable out the package
 
-    }
 
+        System.out.println("---------------------------------------------------------------------------------");
+
+
+
+
+    }
 
 }
 
-    }
 
-}
+
+
+
+
+
+
