@@ -1,4 +1,4 @@
-package Practice;
+package Practice_Constructors;
 
 public class Square {
 
@@ -8,8 +8,8 @@ public class Square {
         return side;
     }
 
-    public void setSide(double side) {
-        if(side<0){
+    public void setSide(double side) {//parameters has to mach
+        if(side<0){// implementing condition
             return;
         }
         this.side = side;
@@ -17,22 +17,28 @@ public class Square {
     }
     //Add a constructor that can set the instances when the object is created
     //                (avoid any duplicated code fragments)
-    public Square(double side) {
+    public Square(double side) {//constructor
         setSide(side);
     }
     public double area(){
+
         return side*side;
     }
     public double perimeter(){
         return 4*side;
     }
     public boolean equals(Square square){
-        return side==square.side;
+                      //argument
+
+
+        return side==square.getSide();
     }
 
     public String toString() {
         return "Square{" +
-                "side=" + side +
+                "side=" + getSide() +
+                "area=" + area() +
+                "perimeter=" + perimeter() +
                 '}';
     }
 }

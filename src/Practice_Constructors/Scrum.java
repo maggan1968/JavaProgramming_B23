@@ -1,4 +1,4 @@
-package Practice;
+package Practice_Constructors;
 
 public class Scrum {
 
