@@ -54,6 +54,9 @@ constructor call:
 			3. Constructor call MUST be at the first step
 			4. one constructor cannot call more than one constructor
 			5. Constructor cannot call itself or contain itself
+			execution  of the constructor always depends on the object- true
+
+constructor gets executed as soon as the class loaded- false
 
 
 Task:
