@@ -1,4 +1,4 @@
-package day47__Recap.browsersTAsk;
+package day47_Recap.browsersTAsk;
 
 public class Browser {
 

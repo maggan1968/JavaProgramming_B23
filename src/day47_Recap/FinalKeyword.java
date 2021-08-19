@@ -1,4 +1,4 @@
-package day47__Recap;
+package day47_Recap;
 
 public class FinalKeyword {
 
