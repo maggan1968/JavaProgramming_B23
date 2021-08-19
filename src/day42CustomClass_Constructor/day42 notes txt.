@@ -54,9 +54,19 @@ constructor call:
 			3. Constructor call MUST be at the first step
 			4. one constructor cannot call more than one constructor
 			5. Constructor cannot call itself or contain itself
-			execution  of the constructor always depends on the object- true
 
-constructor gets executed as soon as the class loaded- false
+Constructor methods can be overload -TRUE
+
+Constructor' execution always depends on the creation of the object- TRUE
+
+execution  of the constructor always depends on the object- TRUE
+
+constructor gets executed as soon as the class loaded- FALSE
+
+Every class MUST have constructor, if no constructor is given, compiler will throw
+ an exception during the runtime-FALSE
+
+ A constructor method can have a return-type in the method signature-FAlSE
 
 
 Task:
