@@ -44,7 +44,7 @@ public class FrequencyOfEachCharacters_INTERVIEW {// Nested_Loop
 }
 
 /*
-2. find the frequency of each characters from astring
+2. find the frequency of each characters from a string
 			str = "aabccc";
 			output:
 				a2b1c3
